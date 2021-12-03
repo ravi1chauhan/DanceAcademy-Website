@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Ravi Dance Academy
+    block scripts
+      script(src='/jquery.js')
+    block style
+  body
+    nav#navbar  
+      ul
+        div#logo
+          img(src="/static/img/logo.png")
+          | RDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Service]
+        li #[a(href="/") Class Info]
+        li #[a(href="/contact") Contact Us]
+        
+    block content
+    footer#footer 
+      | Copyright © 2021 RaviDanceAcademy.com | All rights reserved!

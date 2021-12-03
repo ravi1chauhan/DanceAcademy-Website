@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 21px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 27px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(221, 69, 42);
+    padding: 15px 14px;
+    font-family: 'Ubuntu', sans-serif;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+#navbar ul{
+    display: flex;    
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+    font-size: 21px;
+    /* font-weight: bold; */
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    height: 400px;
+    background-color: tomato;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+#introSection div.small{
+    font-size: 48px;
+    padding: 5px;
+}
+
+#missonSection{
+    height: 311px;
+    margin: auto;
+    width: 85%;
+}
+#missonSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 33px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 29%;
+    margin: 23px 21px;
+    height: 200px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 109px;
+    padding: 0 11px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 9px
+}
+.card-content p{
+    font-size: 17px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgba(231, 190, 187, 0.767);
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 33px;
+}
+
+#sponsors{
+    height: 121px;
+    max-width: 689px;
+    margin: 27px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
